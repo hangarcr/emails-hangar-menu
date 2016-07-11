@@ -1,0 +1,185 @@
+<!-- START MENU MODULE -->
+<table class="mobileWidth" bgcolor="{{ site.primary_light_color }}" cellpadding="0" cellspacing="0" border="0" align="center" width="600">
+
+  <!-- START Day 1 -->
+  {% if page.menu_day1 %}
+    <tr>
+      <td align="center">
+        <table align="center" height="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:17px; vertical-align:top; text-align:left; line-height:17px !important;"><font face="arial">
+              <strong>{{ page.menu_day1_title }}</strong>
+            </font></td>
+          </tr>
+          <tr><td valign="top" width="100%" height="10" style="font-size:10px; line-height:10%;">&nbsp;</td></tr>
+          {% for option in page.menu_day1 %}
+            <tr>
+              <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:11px; vertical-align:top; text-align:left; line-height:14px !important;"><font face="arial">
+                {{ option.menu_option }}
+              </font></td>
+            </tr>
+          {% endfor %}
+          {% if page.menu_day1_special %}
+            <tr>
+              <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:11px; vertical-align:top; text-align:left; line-height:14px !important;"><font face="arial">
+                <strong>{{ page.menu_special_text }}:</strong> {{ page.menu_day1_special }}
+              </font></td>
+            </tr>
+          {% endif %}
+        </table>
+      </td>
+      <td valign="top" align="right" width="100%" height="100%" style="padding:0;">
+        <img width="300" height="150" alt="" border="0" style="display:block;border:none;" src="images/week{{ page.menu_week }}/menu-thumb-1.jpg">
+      </td>
+    </tr>
+  {% endif %}
+  <!-- END Day 1 -->
+
+  <!-- START Day 2 -->
+  {% if page.menu_day2 %}
+    <tr>
+      <td valign="top" align="left" width="100%" height="100%" style="padding:0;">
+        <img width="300" height="150" alt="" border="0" style="display:block;border:none;" src="images/week{{ page.menu_week }}/menu-thumb-2.jpg">
+      </td>
+      <td align="center">
+        <table align="center" height="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:17px; vertical-align:top; text-align:left; line-height:17px !important;"><font face="arial">
+              <strong>{{ page.menu_day2_title }}</strong>
+            </font></td>
+          </tr>
+          <tr><td valign="top" width="100%" height="10" style="font-size:10px; line-height:10%;">&nbsp;</td></tr>
+          {% for option in page.menu_day2 %}
+            <tr>
+              <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:11px; vertical-align:top; text-align:left; line-height:14px !important;"><font face="arial">
+                {{ option.menu_option }}
+              </font></td>
+            </tr>
+          {% endfor %}
+          {% if page.menu_day2_special %}
+            <tr>
+              <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:11px; vertical-align:top; text-align:left; line-height:14px !important;"><font face="arial">
+                <strong>{{ page.menu_special_text }}:</strong> {{ page.menu_day2_special }}
+              </font></td>
+            </tr>
+          {% endif %}
+        </table>
+      </td>
+    </tr>
+  {% endif %}
+  <!-- END Day 2 -->
+
+  <!-- START Day 3 -->
+  {% if page.menu_day3 %}
+    <tr>
+      <td align="center">
+        <table align="center" height="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:17px; vertical-align:top; text-align:left; line-height:17px !important;"><font face="arial">
+              <strong>{{ page.menu_day3_title }}</strong>
+            </font></td>
+          </tr>
+          <tr><td valign="top" width="100%" height="10" style="font-size:10px; line-height:10%;">&nbsp;</td></tr>
+          {% for option in page.menu_day3 %}
+            <tr>
+              <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:11px; vertical-align:top; text-align:left; line-height:14px !important;"><font face="arial">
+                {{ option.menu_option }}
+              </font></td>
+            </tr>
+          {% endfor %}
+          {% if page.menu_day3_special %}
+            <tr>
+              <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:11px; vertical-align:top; text-align:left; line-height:14px !important;"><font face="arial">
+                <strong>{{ page.menu_special_text }}:</strong> {{ page.menu_day3_special }}
+              </font></td>
+            </tr>
+          {% endif %}
+        </table>
+      </td>
+      <td valign="top" align="right" width="100%" height="100%" style="padding:0;">
+        <img width="300" height="150" alt="" border="0" style="display:block;border:none;" src="images/week{{ page.menu_week }}/menu-thumb-3.jpg">
+      </td>
+    </tr>
+  {% endif %}
+  <!-- END Day 3 -->
+
+  <!-- START Day 4 -->
+  {% if page.menu_day4 %}
+    <tr>
+      <td valign="top" align="left" width="100%" height="100%" style="padding:0;">
+        <img width="300" height="150" alt="" border="0" style="display:block;border:none;" src="images/week{{ page.menu_week }}/menu-thumb-4.jpg">
+      </td>
+      <td align="center">
+        <table align="center" height="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:17px; vertical-align:top; text-align:left; line-height:17px !important;"><font face="arial">
+              <strong>{{ page.menu_day4_title }}</strong>
+            </font></td>
+          </tr>
+          <tr><td valign="top" width="100%" height="10" style="font-size:10px; line-height:10%;">&nbsp;</td></tr>
+          {% for option in page.menu_day4 %}
+            <tr>
+              <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:11px; vertical-align:top; text-align:left; line-height:14px !important;"><font face="arial">
+                {{ option.menu_option }}
+              </font></td>
+            </tr>
+          {% endfor %}
+          {% if page.menu_day4_special %}
+            <tr>
+              <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:11px; vertical-align:top; text-align:left; line-height:14px !important;"><font face="arial">
+                <strong>{{ page.menu_special_text }}:</strong> {{ page.menu_day4_special }}
+              </font></td>
+            </tr>
+          {% endif %}
+        </table>
+      </td>
+    </tr>
+  {% endif %}
+  <!-- END Day 4 -->
+
+  <!-- START Day 5 -->
+  {% if page.menu_day5 %}
+    <tr>
+      <td align="center">
+        <table align="center" height="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:17px; vertical-align:top; text-align:left; line-height:17px !important;"><font face="arial">
+              <strong>{{ page.menu_day5_title }}</strong>
+            </font></td>
+          </tr>
+          <tr><td valign="top" width="100%" height="10" style="font-size:10px; line-height:10%;">&nbsp;</td></tr>
+          {% for option in page.menu_day5 %}
+            <tr>
+              <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:11px; vertical-align:top; text-align:left; line-height:14px !important;"><font face="arial">
+                {{ option.menu_option }}
+              </font></td>
+            </tr>
+          {% endfor %}
+          {% if page.menu_day5_special %}
+            <tr>
+              <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:11px; vertical-align:top; text-align:left; line-height:14px !important;"><font face="arial">
+                <strong>{{ page.menu_special_text }}:</strong> {{ page.menu_day5_special }}
+              </font></td>
+            </tr>
+          {% endif %}
+        </table>
+      </td>
+      <td valign="top" align="right" width="100%" height="100%" style="padding:0;">
+        <img width="300" height="150" alt="" border="0" style="display:block;border:none;" src="images/week{{ page.menu_week }}/menu-thumb-5.jpg">
+      </td>
+    </tr>
+  {% endif %}
+  <!-- END Day 5 -->
+
+</table>
+<table class="mobileWidth" bgcolor="{{ site.primary_light_color }}" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+  <tr><td bgcolor="#EDEDED" valign="top" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+  <tr><td valign="top" width="100%" height="18" style="font-size:18px; line-height:18%;">&nbsp;</td></tr>
+  <tr>
+    <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:12px; vertical-align:top; text-align:center; line-height:14px !important;"><font face="arial">
+      {{ page.menu_garrison_text }}
+    </font></td>
+  </tr>
+  <tr><td valign="top" width="100%" height="18" style="font-size:18px; line-height:18%;">&nbsp;</td></tr>
+</table>
+<!-- END MENU MODULE -->

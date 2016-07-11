@@ -1,0 +1,446 @@
+<!-- START MENU MODULE -->
+<table class="mobileWidth" bgcolor="{{ site.primary_light_color }}" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+
+  <!-- Start Desktop Version -->
+  <tr class="hide">
+    <!-- Day 1 -->
+    <td width="15">&nbsp;</td>
+    <td width="119" height="100%" valign="top" style="vertical-align:top;">
+      <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr><td width="100%" height="20" style="font-size:20px; line-height:20px;"></td></tr>
+        <tr>
+          <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:18px; vertical-align:top; text-align:center; line-height:18px !important;"><font face="arial">
+            <strong>{{ page.menu_day1_title }}</strong>
+          </font></td>
+        </tr>
+        <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+        <tr>
+          <td valign="top" align="center" width="100%" height="100%" style="padding:0;">
+            <img width="100" height="100" alt="" border="0" style="display:block;border:none;" src="images/week{{ page.menu_week }}/menu-thumb-1.png">
+          </td>
+        </tr>
+        <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+        {% for option in page.menu_day1 %}
+        <tr>
+          <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+            {{ option.menu_option }}
+          </font></td>
+        </tr>
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        {% endfor %}
+        <tr>
+          <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+            <strong>{{ page.menu_garrison_text }}</strong><br /> {{ page.menu_day1_garrison }}
+          </font></td>
+        </tr>
+        {% if page.menu_day1_special %}
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        <tr>
+          <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+            <strong>{{ page.menu_special_text }}</strong><br /> {{ page.menu_day1_special }}
+          </font></td>
+        </tr>
+        {% endif %}
+        <tr><td width="100%" height="25"></td></tr>
+      </table>
+    </td>
+    <td width="15">&nbsp;</td>
+
+    <td width="1" bgcolor="#D7D7D7" >
+      <table width="1" height="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr><td width="1" height="100%" style="font-size:1px; height:100%; line-height:100%;">&nbsp;</td></tr>
+      </table>
+    </td>
+
+    <!-- Day 2 -->
+    <td width="15">&nbsp;</td>
+    <td width="119" height="100%" valign="top" style="vertical-align:top;">
+      <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr><td width="100%" height="20" style="font-size:20px; line-height:20px;"></td></tr>
+        <tr>
+          <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:18px; vertical-align:top; text-align:center; line-height:18px !important;"><font face="arial">
+            <strong>{{ page.menu_day2_title }}</strong>
+          </font></td>
+        </tr>
+        <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+        <tr>
+          <td valign="top" align="center" width="100%" height="100%" style="padding:0;">
+            <img width="100" height="100" alt="" border="0" style="display:block;border:none;" src="images/week{{ page.menu_week }}/menu-thumb-2.png">
+          </td>
+        </tr>
+        <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+        {% for option in page.menu_day2 %}
+        <tr>
+          <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+            {{ option.menu_option }}
+          </font></td>
+        </tr>
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        {% endfor %}
+        <tr>
+          <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+            <strong>{{ page.menu_garrison_text }}</strong><br /> {{ page.menu_day2_garrison }}
+          </font></td>
+        </tr>
+        {% if page.menu_day2_special %}
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        <tr>
+          <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+            <strong>{{ page.menu_special_text }}</strong><br /> {{ page.menu_day2_special }}
+          </font></td>
+        </tr>
+        {% endif %}
+        <tr><td width="100%" height="25"></td></tr>
+      </table>
+    </td>
+    <td width="15">&nbsp;</td>
+
+    <td width="1" bgcolor="#D7D7D7" >
+      <table width="1" height="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr><td width="1" height="100%" style="font-size:1px; height:100%; line-height:100%;">&nbsp;</td></tr>
+      </table>
+    </td>
+
+    <!-- Day 3 -->
+    <td width="15">&nbsp;</td>
+    <td width="119" height="100%" valign="top" style="vertical-align:top;">
+      <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr><td width="100%" height="20" style="font-size:20px; line-height:20px;"></td></tr>
+        <tr>
+          <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:18px; vertical-align:top; text-align:center; line-height:18px !important;"><font face="arial">
+            <strong>{{ page.menu_day3_title }}</strong>
+          </font></td>
+        </tr>
+        <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+        <tr>
+          <td valign="top" align="center" width="100%" height="100%" style="padding:0;">
+            <img width="100" height="100" alt="" border="0" style="display:block;border:none;" src="images/week{{ page.menu_week }}/menu-thumb-3.png">
+          </td>
+        </tr>
+        <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+        {% for option in page.menu_day3 %}
+        <tr>
+          <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+            {{ option.menu_option }}
+          </font></td>
+        </tr>
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        {% endfor %}
+        <tr>
+          <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+            <strong>{{ page.menu_garrison_text }}</strong><br /> {{ page.menu_day3_garrison }}
+          </font></td>
+        </tr>
+        {% if page.menu_day3_special %}
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        <tr>
+          <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+            <strong>{{ page.menu_special_text }}</strong><br /> {{ page.menu_day3_special }}
+          </font></td>
+        </tr>
+        {% endif %}
+        <tr><td width="100%" height="25"></td></tr>
+      </table>
+    </td>
+    <td width="16">&nbsp;</td>
+
+    <td width="1" bgcolor="#D7D7D7" >
+      <table width="1" height="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr><td width="1" height="100%" style="font-size:1px; height:100%; line-height:100%;">&nbsp;</td></tr>
+      </table>
+    </td>
+
+    <!-- Day 4 -->
+    <td width="15">&nbsp;</td>
+    <td width="119" height="100%" valign="top" style="vertical-align:top;">
+      <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr><td width="100%" height="20" style="font-size:20px; line-height:20px;"></td></tr>
+        <tr>
+          <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:18px; vertical-align:top; text-align:center; line-height:18px !important;"><font face="arial">
+            <strong>{{ page.menu_day4_title }}</strong>
+          </font></td>
+        </tr>
+        <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+        <tr>
+          <td valign="top" align="center" width="100%" height="100%" style="padding:0;">
+            <img width="100" height="100" alt="" border="0" style="display:block;border:none;" src="images/week{{ page.menu_week }}/menu-thumb-4.png">
+          </td>
+        </tr>
+        <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+        {% for option in page.menu_day4 %}
+        <tr>
+          <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+            {{ option.menu_option }}
+          </font></td>
+        </tr>
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        {% endfor %}
+        {% if page.menu_day4_garrison %}
+        <tr>
+          <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+            <strong>{{ page.menu_garrison_text }}</strong><br /> {{ page.menu_day4_garrison }}
+          </font></td>
+        </tr>
+        {% endif %}
+        {% if page.menu_day4_special %}
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+        <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+        <tr>
+          <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+            <strong>{{ page.menu_special_text }}</strong><br /> {{ page.menu_day4_special }}
+          </font></td>
+        </tr>
+        {% endif %}
+        <tr><td width="100%" height="25"></td></tr>
+      </table>
+    </td>
+    <td width="15">&nbsp;</td>
+
+  </tr>
+  <!-- End Desktop Version -->
+
+  <!-- Start Mobile Version -->
+  <tr style="display:none; width:0px; overflow:hidden; float:left; height:0px; max-height:0px;" class="show540">
+    <!--[if !mso]><!-->
+      <td width="100%">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+          <tr>
+
+            <!-- Day 1 -->
+            <td width="30">&nbsp;</td>
+            <td width="210" height="100%" valign="top" style="vertical-align:top;">
+              <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr><td width="100%" height="20" style="font-size:20px; line-height:20px;"></td></tr>
+                <tr>
+                  <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:18px; vertical-align:top; text-align:center; line-height:18px !important;"><font face="arial">
+                    <strong>{{ page.menu_day1_title }}</strong>
+                  </font></td>
+                </tr>
+                <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+                <tr>
+                  <td valign="top" align="center" width="100%" height="100%" style="padding:0;">
+                    <img width="100" height="100" alt="" border="0" style="display:block;border:none;" src="images/week{{ page.menu_week }}/menu-thumb-1.png">
+                  </td>
+                </tr>
+                <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+                {% for option in page.menu_day1 %}
+                <tr>
+                  <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+                    {{ option.menu_option }}
+                  </font></td>
+                </tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+                <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+                {% endfor %}
+                <tr>
+                  <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+                    <strong>{{ page.menu_garrison_text }}</strong><br /> {{ page.menu_day1_garrison }}
+                  </font></td>
+                </tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+                {% if page.menu_day1_special %}
+                <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+                    <strong>{{ page.menu_special_text }}</strong><br /> {{ page.menu_day1_special }}
+                  </font></td>
+                </tr>
+                {% endif %}
+                <tr><td width="100%" height="25"></td></tr>
+              </table>
+            </td>
+            <td width="30">&nbsp;</td>
+
+            <td width="1" bgcolor="#D7D7D7" >
+              <table width="1" height="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr><td width="1" height="100%" style="font-size:1px; height:100%; line-height:100%;">&nbsp;</td></tr>
+              </table>
+            </td>
+
+            <!-- Day 2 -->
+            <td width="30">&nbsp;</td>
+            <td width="210" height="100%" valign="top" style="vertical-align:top;">
+              <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr><td width="100%" height="20" style="font-size:20px; line-height:20px;"></td></tr>
+                <tr>
+                  <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:18px; vertical-align:top; text-align:center; line-height:18px !important;"><font face="arial">
+                    <strong>{{ page.menu_day2_title }}</strong>
+                  </font></td>
+                </tr>
+                <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+                <tr>
+                  <td valign="top" align="center" width="100%" height="100%" style="padding:0;">
+                    <img width="100" height="100" alt="" border="0" style="display:block;border:none;" src="images/week{{ page.menu_week }}/menu-thumb-2.png">
+                  </td>
+                </tr>
+                <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+                {% for option in page.menu_day2 %}
+                <tr>
+                  <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+                    {{ option.menu_option }}
+                  </font></td>
+                </tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+                <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+                {% endfor %}
+                <tr>
+                  <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+                    <strong>{{ page.menu_garrison_text }}</strong><br /> {{ page.menu_day2_garrison }}
+                  </font></td>
+                </tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+                {% if page.menu_day2_special %}
+                <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+                    <strong>{{ page.menu_special_text }}</strong><br /> {{ page.menu_day2_special }}
+                  </font></td>
+                </tr>
+                {% endif %}
+                <tr><td width="100%" height="25"></td></tr>
+              </table>
+            </td>
+            <td width="29">&nbsp;</td>
+
+          </tr>
+        </table>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+          <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+        </table>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+          <tr>
+
+            <!-- Day 3 -->
+            <td width="30">&nbsp;</td>
+            <td width="210" height="100%" valign="top" style="vertical-align:top;">
+              <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr><td width="100%" height="20" style="font-size:20px; line-height:20px;"></td></tr>
+                <tr>
+                  <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:18px; vertical-align:top; text-align:center; line-height:18px !important;"><font face="arial">
+                    <strong>{{ page.menu_day3_title }}</strong>
+                  </font></td>
+                </tr>
+                <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+                <tr>
+                  <td valign="top" align="center" width="100%" height="100%" style="padding:0;">
+                    <img width="100" height="100" alt="" border="0" style="display:block;border:none;" src="images/week{{ page.menu_week }}/menu-thumb-3.png">
+                  </td>
+                </tr>
+                <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+                {% for option in page.menu_day3 %}
+                <tr>
+                  <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+                    {{ option.menu_option }}
+                  </font></td>
+                </tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+                <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+                {% endfor %}
+                <tr>
+                  <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+                    <strong>{{ page.menu_garrison_text }}</strong><br /> {{ page.menu_day3_garrison }}
+                  </font></td>
+                </tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+                {% if page.menu_day3_special %}
+                <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+                    <strong>{{ page.menu_special_text }}</strong><br /> {{ page.menu_day3_special }}
+                  </font></td>
+                </tr>
+                {% endif %}
+                <tr><td width="100%" height="25"></td></tr>
+              </table>
+            </td>
+            <td width="30">&nbsp;</td>
+
+            <td width="1" bgcolor="#D7D7D7" >
+              <table width="1" height="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr><td width="1" height="100%" style="font-size:1px; height:100%; line-height:100%;">&nbsp;</td></tr>
+              </table>
+            </td>
+
+            <!-- Day 4 -->
+            <td width="30">&nbsp;</td>
+            <td width="210" height="100%" valign="top" style="vertical-align:top;">
+              <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr><td width="100%" height="20" style="font-size:20px; line-height:20px;"></td></tr>
+                <tr>
+                  <td valign="top" align="center" width="100%" style="color:{{ site.primary_text_color }};font-size:18px; vertical-align:top; text-align:center; line-height:18px !important;"><font face="arial">
+                    <strong>{{ page.menu_day4_title }}</strong>
+                  </font></td>
+                </tr>
+                <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+                <tr>
+                  <td valign="top" align="center" width="100%" height="100%" style="padding:0;">
+                    <img width="100" height="100" alt="" border="0" style="display:block;border:none;" src="images/week{{ page.menu_week }}/menu-thumb-4.png">
+                  </td>
+                </tr>
+                <tr><td width="100%" height="15" style="font-size:15px; line-height:15px;"></td></tr>
+                {% for option in page.menu_day4 %}
+                <tr>
+                  <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+                    {{ option.menu_option }}
+                  </font></td>
+                </tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+                <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+                {% endfor %}
+                {% if page.menu_day4_garrison %}
+                <tr>
+                  <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+                    <strong>{{ page.menu_garrison_text }}</strong><br /> {{ page.menu_day4_garrison }}
+                  </font></td>
+                </tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td></tr>
+                {% endif %}
+                {% if page.menu_day4_special %}
+                <tr><td valign="top" bgcolor="#D7D7D7" width="100%" height="1" style="font-size:1px; line-height:1%;">&nbsp;</td></tr>
+                <tr><td valign="top" width="100%" height="7" style="font-size:7px; line-height:7%;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="top" align="left" width="100%" style="color:{{ site.primary_text_color }};font-size:13px; vertical-align:top; line-height:18px !important;"><font face="arial">
+                    <strong>{{ page.menu_special_text }}</strong><br /> {{ page.menu_day4_special }}
+                  </font></td>
+                </tr>
+                {% endif %}
+                <tr><td width="100%" height="25"></td></tr>
+              </table>
+            </td>
+            <td width="29">&nbsp;</td>
+
+          </tr>
+        </table>
+      </td>
+    <!--<![endif]-->
+  </tr>
+  <!-- End Mobile Version -->
+
+</table>
+<!-- END MENU MODULE -->

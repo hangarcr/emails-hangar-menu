@@ -1,0 +1,11 @@
+name: Hangar Email Open House
+title: Hangar Open House
+markdown: redcarpet
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+
+
+# StyleGuide Colors
+background_color: "#F1F1F1"
+primary_light_color: "#FFFFFF"
+primary_text_color: "#000000"

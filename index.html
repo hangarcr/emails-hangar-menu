@@ -1,0 +1,28 @@
+---
+layout: admin
+title: Jekyll-Base
+---
+
+<div class="container main">
+  <div class="col-sm-12">
+    <h2 class="banner-client">Emails List</h2>
+    <h3 class="banner-name">Hangar Menu</h3>
+    <div class="table-responsive">
+      <table class="table ">
+        <tbody>
+          {% for page in site.pages %}
+
+            {% if page.title != 'Jekyll-Base' && page.modal != true %}
+            <tr {% if page.comments %} class="error" {% endif %}>
+              <td>
+                <a class="banner-size" href="{{ page.url }}" target="_blank">{{ page.title }}</a>
+              </td>
+            </tr>
+            {% endif %}
+
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
