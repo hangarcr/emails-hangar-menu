@@ -10,12 +10,12 @@ title: Jekyll-Base
     <div class="table-responsive">
       <table class="table ">
         <tbody>
-          {% for page in site.pages %}
+          {% for email in site.pages %}
 
-            {% if page.title != 'Jekyll-Base' && page.modal != true %}
-            <tr {% if page.comments %} class="error" {% endif %}>
+            {% if email.title != 'Jekyll-Base' %}
+            <tr {% if email.comments %} class="error" {% endif %}>
               <td>
-                <a class="banner-size" href="{{ page.url }}" target="_blank">{{ page.title }}</a>
+                <a class="banner-size" href="{{ email.path }}" target="_blank">{{ email.title }}</a>
               </td>
             </tr>
             {% endif %}

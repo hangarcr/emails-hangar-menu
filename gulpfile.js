@@ -39,11 +39,22 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch(['index.html', '_config.yml', '_layouts/**/*.html', '_includes/**/*.html', 'pages/**/*'], ['jekyll-rebuild']);
+    gulp.watch(['index.html', '_config.yml', '_layouts/**/*.html', '_includes/**/*.html', 'emails/**/*'], ['jekyll-rebuild']);
 });
 
 /**
- * Default task, running just `gulp` will
+ * Creates/Compile _site folder.
+ */
+gulp.task('build', ['jekyll-build']);
+
+/**
+ * Serve task, running just `gulp serve` will
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['browser-sync', 'watch']);
+gulp.task('serve', ['browser-sync', 'watch']);
+
+/**
+ * Default task, running just `gulp` will
+ * Creates/Compile _site folder.
+ */
+gulp.task('default', ['build']);
